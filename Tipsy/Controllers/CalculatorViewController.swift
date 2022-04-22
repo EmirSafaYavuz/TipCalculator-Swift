@@ -53,7 +53,7 @@ class CalculatorViewController: UIViewController {
     }
     
     @IBAction func calculatePressed(_ sender: UIButton) {
-        if billTextField.text != nil {
+        if billTextField.text != "" {
             let bill = billTextField.text!
             if bill != "" {
                 totalBill = Double(bill)!
